@@ -1,9 +1,10 @@
 import Layout from "./assets/components/Layout";
+import TodoContainer from "./assets/components/todo/TodoContainer";
 
 const App = () => {
   return (
     <Layout>
-      <h1>App</h1>
+      <TodoContainer />
     </Layout>
   );
 };
