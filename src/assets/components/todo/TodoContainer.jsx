@@ -26,8 +26,8 @@ const doneTodos = todos.filter((todo) => todo.isDone);
   <section>
     <h1 className="title">Todo List</h1>
     <TodoForm setTodos={setTodos}/>
-      <TodoList title="Working" todos={WorkingTodos}/>
-      <TodoList title="Done" todos={doneTodos}/>
+      <TodoList title="Working" todos={WorkingTodos} setTodos={setTodos} />
+      <TodoList title="Done" todos={doneTodos} setTodos={setTodos} />
     </section>
   );
 };
